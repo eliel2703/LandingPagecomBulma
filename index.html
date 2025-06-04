@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria Black Coffee</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link href="landing.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item has-text-weight-bold is-size-4" href="#">
+                    <i class="fas fa-coffee mr-2"></i>Black Coffee
+                </a>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarMenu" class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="#home">Home</a>
+                    <a class="navbar-item" href="#cafes">Nossos Cafés</a>
+                    <a class="navbar-item" href="#sobre">Sobre nós</a>
+                    <a class="navbar-item" href="#contato">Contato</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero is-medium is-dark">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title hero-title mb-5">Cafeteria Black Coffee</h1>
+                <p class="subtitle hero-subtitle mb-6">Descubra o verdadeiro sabor do café artesanal em um ambiente aconchegante</p>
+                <a href="#cafes" class="button is-primary is-medium">
+                    <span>Conheça nossos produtos</span>
+                    <span class="icon">
+                        <i class="fas fa-arrow-down"></i>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="carousel-container">
+                <div class="carousel-slides">
+                    <div class="carousel-slide">
+                        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Café artesanal">
+                        <div class="carousel-caption">
+                            <h5 class="title is-5 has-text-white">Café Artesanal</h5>
+                            <p>Grãos selecionados e torrados com perfeição para você</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Ambiente aconchegante">
+                        <div class="carousel-caption">
+                            <h5 class="title is-5 has-text-white">Ambiente Aconchegante</h5>
+                            <p>O lugar perfeito para trabalhar ou relaxar com um bom café</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="https://images.unsplash.com/photo-1498804103079-a6351b050096?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Baristas especializados">
+                        <div class="carousel-caption">
+                            <h5 class="title is-5 has-text-white">Baristas Especializados</h5>
+                            <p>Profissionais apaixonados por café e pela arte de servir</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-nav">
+                    <button class="carousel-button prev"><i class="fas fa-chevron-left"></i></button>
+                    <button class="carousel-button next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                
+                <div class="carousel-indicators">
+                    <span class="carousel-indicator active"></span>
+                    <span class="carousel-indicator"></span>
+                    <span class="carousel-indicator"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cafes" class="section">
+        <div class="container">
+            <h2 class="title is-2 has-text-centered section-title">Nossos Cafés Especiais</h2>
+            <p class="subtitle is-5 has-text-centered mb-6">Selecionamos os melhores grãos para oferecer a você uma experiência única de sabor.</p>
+            
+            <div class="columns is-multiline">
+                <div class="column is-4">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="https://www.tasteofhome.com/wp-content/uploads/2023/03/TOH-espresso-GettyImages-1291298315-JVcrop.jpg" alt="Espresso">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="title is-4">Expresso Perfeito</h3>
+                            <div class="content">
+                                <p>Intenso e encorpado, com notas de chocolate amargo e finalização prolongada.</p>
+                                <p class="price">R$ 8,90</p>
+                            </div>
+                            <a href="#contato" class="button is-primary is-fullwidth">
+                                <span>Pedir agora</span>
+                                <span class="icon">
+                                    <i class="fas fa-shopping-bag"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="column is-4">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="https://images4.alphacoders.com/133/thumbbig-1339862.webp" alt="Cappuccino">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="title is-4">Cappuccino Cremoso</h3>
+                            <div class="content">
+                                <p>Equilíbrio perfeito entre café, leite vaporizado e espuma de microbolhas.</p>
+                                <p class="price">R$ 12,90</p>
+                            </div>
+                            <a href="#contato" class="button is-primary is-fullwidth">
+                                <span>Pedir agora</span>
+                                <span class="icon">
+                                    <i class="fas fa-shopping-bag"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="column is-4">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="https://images.pexels.com/photos/28730009/pexels-photo-28730009/free-photo-of-matcha-latte-artistico-con-adorno-de-hojas.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Latte">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="title is-4">Latte Artístico</h3>
+                            <div class="content">
+                                <p>Suave e aveludado, com desenhos especiais feitos por nossos baristas.</p>
+                                <p class="price">R$ 14,90</p>
+                            </div>
+                            <a href="#contato" class="button is-primary is-fullwidth">
+                                <span>Pedir agora</span>
+                                <span class="icon">
+                                    <i class="fas fa-shopping-bag"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="has-text-centered mt-6">
+                <a href="#contato" class="button is-primary is-medium">
+                    <span>Ver menu completo</span>
+                    <span class="icon">
+                        <i class="fas fa-utensils"></i>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="section dark-section">
+        <div class="container">
+            <h2 class="title is-2 has-text-centered section-title">Sobre Nós</h2>
+            
+            <div class="columns is-vcentered">
+                <div class="column is-6">
+                    <figure class="image">
+                        <img class="about-img" src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Interior da cafeteria">
+                    </figure>
+                </div>
+                <div class="column is-6">
+                    <div class="content is-medium">
+                        <p class="mb-4">Fundada em 2010, a Cafeteria Black Coffee nasceu da paixão por café de qualidade e do desejo de criar um espaço onde as pessoas pudessem desfrutar de momentos especiais.</p>
+                        <p class="mb-4">Nossos grãos são cuidadosamente selecionados de pequenos produtores, torrados artesanalmente e preparados por baristas experientes que dominam as melhores técnicas de extração.</p>
+                        <p class="mb-5">Mais que uma cafeteria, somos um ponto de encontro para amantes de café, um lugar para trabalhar com tranquilidade ou simplesmente relaxar com uma boa xícara.</p>
+                        <div class="buttons">
+                            <a href="#contato" class="button is-primary is-medium">
+                                <span>Venha nos visitar</span>
+                                <span class="icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="section">
+        <div class="container">
+            <h2 class="title is-2 has-text-centered section-title">Entre em Contato</h2>
+            <p class="subtitle is-5 has-text-centered mb-6">Estamos ansiosos para atendê-lo. Envie sua mensagem ou venha nos visitar!</p>
+            
+            <div class="columns">
+                <div class="column is-5">
+                    <div class="content is-medium">
+                        <h3 class="title is-4 mb-5">Informações</h3>
+                        
+                        <div class="icon-text">
+                            <span class="icon is-large">
+                                <i class="fas fa-map-marker-alt fa-lg"></i>
+                            </span>
+                            <span>Rua da Casa do Fernandao, 273<br>Vai Curintia, São Paulo - SP</span>
+                        </div>
+                        
+                        <div class="icon-text">
+                            <span class="icon is-large">
+                                <i class="fas fa-phone fa-lg"></i>
+                            </span>
+                            <span>(11) 98765-4321</span>
+                        </div>
+                        
+                        <div class="icon-text">
+                            <span class="icon is-large">
+                                <i class="fas fa-envelope fa-lg"></i>
+                            </span>
+                            <span>contato@blackcoffee.com</span>
+                        </div>
+                        
+                        <div class="icon-text">
+                            <span class="icon is-large">
+                                <i class="fas fa-clock fa-lg"></i>
+                            </span>
+                            <span>Seg-Sex: 7h-20h<br>Sáb-Dom: 8h-22h</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="column is-7">
+                    <form class="box">
+                        <div class="field is-horizontal">
+                            <div class="field-body">
+                                <div class="field">
+                                    <label class="label">Nome</label>
+                                    <div class="control">
+                                        <input class="input" type="text" placeholder="Seu nome" required>
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <label class="label">Email</label>
+                                    <div class="control">
+                                        <input class="input" type="email" placeholder="Seu email" required>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="field">
+                            <label class="label">Assunto</label>
+                            <div class="control">
+                                <input class="input" type="text" placeholder="Sobre o que deseja falar?">
+                            </div>
+                        </div>
+                        
+                        <div class="field">
+                            <label class="label">Mensagem</label>
+                            <div class="control">
+                                <textarea class="textarea" placeholder="Sua mensagem..." rows="5" required></textarea>
+                            </div>
+                        </div>
+                        
+                        <div class="field">
+                            <div class="control">
+                                <button type="submit" class="button is-primary is-medium is-fullwidth">
+                                    <span>Enviar Mensagem</span>
+                                    <span class="icon">
+                                        <i class="fas fa-paper-plane"></i>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="columns is-vcentered">
+                <div class="column is-4">
+                    <h3 class="title is-4 has-text-white">
+                        <i class="fas fa-coffee mr-2"></i>Black Coffee
+                    </h3>
+                    <p>Desde 2010 servindo os melhores cafés especiais de São Paulo.</p>
+                </div>
+                
+                <div class="column is-4 has-text-centered">
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="column is-4 has-text-right">
+                    <p>&copy; 2025 Cafeteria Black Coffee</p>
+                    <p>Todos os direitos reservados</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+            
+            $navbarBurgers.forEach(el => {
+                el.addEventListener('click', () => {
+                    const target = el.dataset.target;
+                    const $target = document.getElementById(target);
+                    
+                    el.classList.toggle('is-active');
+                    $target.classList.toggle('is-active');
+                });
+            });
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                    
+                    const navbar = document.querySelector('.navbar-menu');
+                    const burger = document.querySelector('.navbar-burger');
+                    if (navbar.classList.contains('is-active')) {
+                        navbar.classList.remove('is-active');
+                        burger.classList.remove('is-active');
+                    }
+                });
+            });
+
+            const carouselSlides = document.querySelector('.carousel-slides');
+            const slides = document.querySelectorAll('.carousel-slide');
+            const prevBtn = document.querySelector('.carousel-button.prev');
+            const nextBtn = document.querySelector('.carousel-button.next');
+            const indicators = document.querySelectorAll('.carousel-indicator');
+            
+            let currentIndex = 0;
+            const slideCount = slides.length;
+            
+            prevBtn.addEventListener('click', goToPrevSlide);
+            nextBtn.addEventListener('click', goToNextSlide);
+            
+            indicators.forEach((indicator, index) => {
+                indicator.addEventListener('click', () => {
+                    goToSlide(index);
+                });
+            });
+            
+            let slideInterval = setInterval(goToNextSlide, 5000);
+            r
+            const carousel = document.querySelector('.carousel-container');
+            carousel.addEventListener('mouseenter', () => {
+                clearInterval(slideInterval);
+            });
+            
+            carousel.addEventListener('mouseleave', () => {
+                slideInterval = setInterval(goToNextSlide, 5000);
+            });
+
+            function goToSlide(index) {
+                currentIndex = (index + slideCount) % slideCount;
+                updateCarousel();
+            }
+            
+            function goToPrevSlide() {
+                currentIndex = (currentIndex - 1 + slideCount) % slideCount;
+                updateCarousel();
+            }
+            
+            function goToNextSlide() {
+                currentIndex = (currentIndex + 1) % slideCount;
+                updateCarousel();
+            }
+            
+            function updateCarousel() {
+                carouselSlides.style.transform = `translateX(-${currentIndex * 100}%)`;
+                
+                indicators.forEach((indicator, index) => {
+                    if (index === currentIndex) {
+                        indicator.classList.add('active');
+                    } else {
+                        indicator.classList.remove('active');
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>
